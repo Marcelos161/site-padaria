@@ -1,0 +1,60 @@
+:root {
+    --imagens-grandes: 
+}
+
+#barra-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+
+    position: relative;
+
+}
+
+#principal {
+    display: flex;
+    justify-content: right;
+
+    background-color: black;
+    width: 100%;
+}
+
+#restaurante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    background-color: black;
+
+    margin-right: 400px;
+
+    
+}
+
+#fotoRes {
+    height: 1000px;
+}
+
+#restaurante> h1, p, a{
+    color: white;
+    margin-bottom: auto;
+}
+
+#restaurante> h1{
+    font-size: 100px;
+    
+}
+
+#restaurante> button{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 60px;
+    background-color: rgb(253, 177, 63);
+    height: 50px;
+    width: 300px;
+    border-style: none;
+}
